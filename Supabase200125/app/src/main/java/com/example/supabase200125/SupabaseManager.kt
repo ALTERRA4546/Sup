@@ -8,8 +8,8 @@ import io.github.jan.supabase.serializer.JacksonSerializer
 
 class SupabaseManager {
     val supabase = createSupabaseClient(
-        supabaseUrl = "https://tzelwlwbnsivolmalxxc.supabase.co",
-        supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InR6ZWx3bHdibnNpdm9sbWFseHhjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzczNjY5MzIsImV4cCI6MjA1Mjk0MjkzMn0.bSA-46yuZkr80IQFSBdFpQVtrfwzZLoRIXkSf109G-Y"
+        supabaseUrl = "",
+        supabaseKey = ""
     ) {
         //install(Auth)
         install(Postgrest)
