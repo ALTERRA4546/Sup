@@ -47,7 +47,8 @@ class AccountAdapter (private val lifecycleOwner: LifecycleOwner, context: Conte
             val noButton = layout.findViewById<Button>(R.id.noDelete)
             val textMessage = layout.findViewById<TextView>(R.id.textMessageDelete)
 
-            textMessage.text = "Вы действительно хотите удалить данный аккаунт " + account.Name + "?"
+
+            //textMessage.text = "@string/delete_text" + " " + account.Name + "?"
 
             yesButton.setOnClickListener {
                 show.dismiss()

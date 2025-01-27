@@ -1,3 +1,21 @@
 <resources>
+    <!--окно добавления-->
     <string name="app_name">Supabase200125</string>
+    <string name="add_account_title_main">Additions</string>
+    <string name="add_button_main">Add</string>
+    <string name="list_title_main">List</string>
+    <string name="update_list_main">Update</string>
+    <string name="name_text_view">Name</string>
+    <string name="email_text_view">Email</string>
+    <string name="password_text_view">Password</string>
+
+    <!--окно редактирования-->
+    <string name="edit_account_title_edit">Editing</string>
+    <string name="save_button_edit">Save</string>
+
+    <!--диалог удаления-->
+    <string name="delete_title">Deleting an account</string>
+    <string name="delete_text">Are you sure you want to delete this account?</string>
+    <string name="yes_button_delete">Yes</string>
+    <string name="no_button_delete">No</string>
 </resources>
